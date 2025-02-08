@@ -5,6 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="horizontal"
+    android:gravity="center"
     android:padding="16dp"
     tools:context=".MainActivity">
 
@@ -12,22 +13,26 @@
         android:id="@+id/firstInput"
         android:layout_width="0dp"
         android:layout_weight="1"
-        android:layout_height="wrap_content"
+        android:layout_height="50dp"
         android:hint="First number"
-        android:inputType="number"/>
+        android:inputType="number"
+        android:textAlignment="center"
+        android:background="@drawable/input_box"/>
 
     <EditText
         android:id="@+id/secondInput"
         android:layout_width="0dp"
         android:layout_weight="1"
-        android:layout_height="wrap_content"
+        android:layout_height="50dp"
         android:hint="Second number"
-        android:inputType="number"/>
+        android:inputType="number"
+        android:textAlignment="center"
+        android:background="@drawable/input_box"/>
 
     <Button
         android:id="@+id/addButton"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="50dp"
         android:text="Abdullah"
         android:backgroundTint="@android:color/holo_blue_dark"
         android:textColor="@android:color/white"/>
@@ -36,9 +41,12 @@
         android:id="@+id/outputResult"
         android:layout_width="0dp"
         android:layout_weight="1"
-        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:layout_height="50dp"
         android:hint="Output"
         android:focusable="false"
-        android:inputType="none"/>
+        android:inputType="none"
+        android:textAlignment="center"
+        android:background="@drawable/input_box"/>
 
 </LinearLayout>
