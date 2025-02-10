@@ -33,4 +33,4 @@ This is a basic Android calculator application that allows users to add two numb
 - **Changing Button Name**: Edit `android:text` property of the Button element.
 
 ## Screenshots
-!(simpleUI)[img.png]
+![SimpleUI](img.png)
