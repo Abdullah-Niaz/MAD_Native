@@ -17,30 +17,34 @@
 
         <EditText
             android:id="@+id/num1"
-            android:layout_width="80dp"
+            android:layout_width="139dp"
             android:layout_height="wrap_content"
+            android:background="@android:drawable/edit_text"
+            android:gravity="center"
             android:hint="First No"
             android:inputType="numberDecimal"
             android:padding="10dp"
-            android:textSize="16sp"
-            android:background="@android:drawable/edit_text" />
+            android:textAlignment="center"
+            android:textSize="16sp" />
 
         <TextView
-            android:layout_width="wrap_content"
+            android:layout_width="66dp"
             android:layout_height="wrap_content"
+            android:padding="50dp"
             android:text="+"
-            android:textSize="20sp"
-            android:padding="10dp" />
+            android:textSize="20sp" />
 
         <EditText
             android:id="@+id/num2"
-            android:layout_width="80dp"
+            android:layout_width="152dp"
             android:layout_height="wrap_content"
+            android:background="@android:drawable/edit_text"
+            android:gravity="center"
             android:hint="Second No"
             android:inputType="numberDecimal"
             android:padding="10dp"
-            android:textSize="16sp"
-            android:background="@android:drawable/edit_text" />
+            android:textAlignment="center"
+            android:textSize="16sp" />
     </LinearLayout>
 
     <Button
@@ -50,17 +54,21 @@
         android:text="Abdullah"
         android:padding="10dp"
         android:textSize="16sp"
+        android:textAlignment="center"
+        android:gravity="center"
         android:layout_marginTop="16dp" />
 
     <EditText
         android:id="@+id/result"
-        android:layout_width="wrap_content"
+        android:layout_width="179dp"
         android:layout_height="wrap_content"
-        android:hint="Result"
-        android:textSize="18sp"
-        android:padding="10dp"
+        android:layout_marginTop="16dp"
         android:background="@android:drawable/edit_text"
-        android:focusable="false"
         android:clickable="false"
-        android:layout_marginTop="16dp" />
+        android:focusable="false"
+        android:textAlignment="center"
+        android:gravity="center"
+        android:hint="Result"
+        android:padding="10dp"
+        android:textSize="18sp" />
 </LinearLayout>
