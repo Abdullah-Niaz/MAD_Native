@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="20dp">
+
+    <Button
+        android:id="@+id/btnStudent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Student" />
+
+    <Button
+        android:id="@+id/btnProfessor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Professor"
+        android:layout_marginTop="10dp"/>
+
+    <Button
+        android:id="@+id/btnSubject"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Subject"
+        android:layout_marginTop="10dp"/>
+
+    <Button
+        android:id="@+id/btnCourseAllocation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Course Allocation"
+        android:layout_marginTop="10dp"/>
+    <Button
+        android:id="@+id/testingId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Testing Button"
+        android:layout_marginTop="10dp"/>
+</LinearLayout>
