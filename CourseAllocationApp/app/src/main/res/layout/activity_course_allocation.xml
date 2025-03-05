@@ -29,6 +29,139 @@
         android:id="@+id/btnSubmitAllocation"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Submit"
+        android:text="Allocate Course"
+        android:textColor="@android:color/white"
+        android:background="#4CAF50"
+        android:padding="10dp"
         android:layout_marginTop="20dp"/>
+
+    <!-- Table Layout to Display Allocated Courses -->
+    <TableLayout
+        android:id="@+id/tableLayoutAllocations"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:stretchColumns="*"
+        android:layout_marginTop="20dp"
+        android:background="#FFFFFF"
+        android:padding="5dp">
+
+        <!-- Table Header -->
+        <TableRow
+            android:background="#6200EE"
+            android:padding="10dp">
+
+            <TextView
+                android:layout_weight="1"
+                android:text="Student ID"
+                android:textStyle="bold"
+                android:textColor="#FFFFFF"
+                android:gravity="center"
+                android:padding="10dp"/>
+
+            <TextView
+                android:layout_weight="1"
+                android:text="Subject Code"
+                android:textStyle="bold"
+                android:textColor="#FFFFFF"
+                android:gravity="center"
+                android:padding="10dp"/>
+
+            <TextView
+                android:layout_weight="1"
+                android:text="Professor ID"
+                android:textStyle="bold"
+                android:textColor="#FFFFFF"
+                android:gravity="center"
+                android:padding="10dp"/>
+        </TableRow>
+
+        <!-- Sample Data Row -->
+        <TableRow
+            android:background="#EEEEEE"
+            android:padding="10dp">
+
+            <TextView
+                android:layout_weight="1"
+                android:text="S12345"
+                android:gravity="center"
+                android:padding="10dp"/>
+
+            <TextView
+                android:layout_weight="1"
+                android:text="CS101"
+                android:gravity="center"
+                android:padding="10dp"/>
+
+            <TextView
+                android:layout_weight="1"
+                android:text="P67890"
+                android:gravity="center"
+                android:padding="10dp"/>
+        </TableRow>
+
+        <!-- Another Sample Data Row -->
+        <TableRow
+            android:background="#FFFFFF"
+            android:padding="10dp">
+
+            <TextView
+                android:layout_weight="1"
+                android:text="S67890"
+                android:gravity="center"
+                android:padding="10dp"/>
+
+            <TextView
+                android:layout_weight="1"
+                android:text="MTH202"
+                android:gravity="center"
+                android:padding="10dp"/>
+
+            <TextView
+                android:layout_weight="1"
+                android:text="P12345"
+                android:gravity="center"
+                android:padding="10dp"/>
+        </TableRow>
+
+    </TableLayout>
+
 </LinearLayout>
+
+
+
+
+
+    <!--<?xml version="1.0" encoding="utf-8"?>-->
+<!--<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--    android:layout_width="match_parent"-->
+<!--    android:layout_height="match_parent"-->
+<!--    android:orientation="vertical"-->
+<!--    android:padding="20dp">-->
+
+<!--    <EditText-->
+<!--        android:id="@+id/etStudentIDAlloc"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:hint="Enter Student ID" />-->
+
+<!--    <EditText-->
+<!--        android:id="@+id/etSubjectCodeAlloc"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:hint="Enter Subject Code"-->
+<!--        android:layout_marginTop="10dp"/>-->
+
+<!--    <EditText-->
+<!--        android:id="@+id/etProfessorIDAlloc"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:hint="Enter Professor ID"-->
+<!--        android:layout_marginTop="10dp"/>-->
+
+<!--    <Button-->
+<!--        android:id="@+id/btnSubmitAllocation"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="Submit"-->
+<!--        android:layout_marginTop="20dp"/>-->
+<!--</LinearLayout>-->
