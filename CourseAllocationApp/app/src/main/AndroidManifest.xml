@@ -26,8 +26,8 @@
         <activity android:name=".StudentActivity" />
         <activity android:name=".SubjectActivity" />
         <activity android:name=".ProfessorActivity" />
-        <activity android:name=".CourseAllocationActivity" />
-        <activity android:name=".TestingActivity" />
+<!--        <activity android:name=".CourseAllocationActivity" />-->
+<!--        <activity android:name=".TestingActivity" />-->
     </application>
 
 </manifest>

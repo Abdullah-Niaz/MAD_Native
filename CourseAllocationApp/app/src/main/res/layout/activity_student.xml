@@ -7,14 +7,14 @@
     android:background="#F5F5F5">
 
     <EditText
-        android:id="@+id/etStudentID"
+        android:id="@+id/StudentID"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Enter Student ID"
         android:padding="10dp"/>
 
     <EditText
-        android:id="@+id/etStudentName"
+        android:id="@+id/StudentName"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Enter Student Name"

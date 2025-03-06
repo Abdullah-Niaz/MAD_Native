@@ -6,13 +6,13 @@
     android:padding="20dp">
 
     <EditText
-        android:id="@+id/etProfessorID"
+        android:id="@+id/ProfessorID"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Enter Professor ID" />
 
     <EditText
-        android:id="@+id/etProfessorName"
+        android:id="@+id/ProfessorName"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Enter Professor Name"

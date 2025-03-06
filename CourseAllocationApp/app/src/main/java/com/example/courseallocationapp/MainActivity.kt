@@ -13,24 +13,29 @@ class MainActivity : AppCompatActivity() {
         val btnStudent = findViewById<Button>(R.id.btnStudent)
         val btnProfessor = findViewById<Button>(R.id.btnProfessor)
         val btnSubject = findViewById<Button>(R.id.btnSubject)
-        val btnCourseAllocation = findViewById<Button>(R.id.btnCourseAllocation)
+//        val btnCourseAllocation = findViewById<Button>(R.id.btnCourseAllocation)
 //        val btnTestingActivity = findViewById<Button>(R.id.testingId)
 
         btnStudent.setOnClickListener {
-            startActivity(Intent(this, StudentActivity::class.java))
+            val intent = Intent(this, StudentActivity::class.java)
+            startActivity(intent)
+
         }
 
         btnProfessor.setOnClickListener {
-            startActivity(Intent(this, ProfessorActivity::class.java))
+            val intent = Intent(this, ProfessorActivity::class.java)
+            startActivity(intent)
         }
 
         btnSubject.setOnClickListener {
-            startActivity(Intent(this, SubjectActivity::class.java))
+            val intent = Intent(this, SubjectActivity::class.java)
+            startActivity(intent)
         }
 
-        btnCourseAllocation.setOnClickListener {
-            startActivity(Intent(this, CourseAllocationActivity::class.java))
-        }
+//        btnCourseAllocation.setOnClickListener {
+//            val intent = Intent(this, CourseAllocationActivity::class.java)
+//            startActivity(intent)
+//        }
 //        btnTestingActivity.setOnClickListener{
 //           startActivity(Intent(this, TestingActivity::class.java))
 //        }

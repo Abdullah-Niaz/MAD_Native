@@ -13,8 +13,8 @@ class ProfessorActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_professor)
 
-        val etProfessorID = findViewById<EditText>(R.id.etProfessorID)
-        val etProfessorName = findViewById<EditText>(R.id.etProfessorName)
+        val etProfessorID = findViewById<EditText>(R.id.ProfessorID)
+        val etProfessorName = findViewById<EditText>(R.id.ProfessorName)
         val btnSubmit = findViewById<Button>(R.id.btnSubmitProfessor)
         tableLayout = findViewById(R.id.tableLayoutProfessors)
 

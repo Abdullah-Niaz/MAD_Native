@@ -13,8 +13,8 @@ class SubjectActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_subject)
 
-        val etSubjectCode = findViewById<EditText>(R.id.etSubjectCode)
-        val etSubjectTitle = findViewById<EditText>(R.id.etSubjectTitle)
+        val etSubjectCode = findViewById<EditText>(R.id.SubjectCode)
+        val etSubjectTitle = findViewById<EditText>(R.id.SubjectTitle)
         val btnSubmit = findViewById<Button>(R.id.btnSubmitSubject)
         tableLayout = findViewById(R.id.tableLayoutSubjects)
 
