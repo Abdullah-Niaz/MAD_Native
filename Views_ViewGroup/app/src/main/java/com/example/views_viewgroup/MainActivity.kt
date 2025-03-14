@@ -1,6 +1,7 @@
 package com.example.views_viewgroup
 
 import android.os.Bundle
+import android.content.Intent
 import android.widget.TextView
 import android.widget.Button
 import androidx.activity.ComponentActivity
@@ -20,15 +21,18 @@ class MainActivity : ComponentActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.main_activity)
 
-        val btn = findViewById<Button>(R.id.button)
-        val btnreset = findViewById<Button>(R.id.buttonreset)
-        val text = findViewById<TextView>(R.id.textView)
 
-        btn.setOnClickListener{
-            text.text= "Done With Listen"
+        val btnViews = findViewById<Button>(R.id.btnViews)
+        val btnViewGroups = findViewById<Button>(R.id.btnViewGroups)
+
+        btnViews.setOnClickListener {
+            val intent = Intent(this, ViewsActivity::class.java)
+            startActivity(intent)
         }
-        btnreset.setOnClickListener{
-            text.text = "Hello! World"
+
+        btnViewGroups.setOnClickListener {
+            val intent = Intent(this, ViewGroupsActivity::class.java)
+            startActivity(intent)
         }
     }
 }

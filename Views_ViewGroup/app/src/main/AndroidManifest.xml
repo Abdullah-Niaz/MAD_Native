@@ -13,6 +13,13 @@
         android:theme="@style/Theme.Views_ViewGroup"
         tools:targetApi="31">
         <activity
+            android:name=".ViewsActivity"
+            android:theme="@style/Theme.Views_ViewGroup" />
+
+        <activity
+            android:name=".ViewGroupsActivity"
+            android:theme="@style/Theme.Views_ViewGroup" />
+        <activity
             android:name=".MainActivity"
             android:exported="true"
             android:label="@string/app_name"
